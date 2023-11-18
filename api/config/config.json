@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "${process.env.db_username}",
+    "password": "${process.env.db_password}",
+    "database": "materialDesign",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "${process.env.db_password}",
+    "database": "materialDesign",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "${process.env.db_password}",
+    "database": "materialDesign",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
