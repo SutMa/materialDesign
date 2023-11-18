@@ -6,6 +6,8 @@ var logger = require('morgan');
 const bodyParser = require('body-parser');
 require('dotenv').config();
 
+const bcrypt = require('bcrypt');
+
 const { sequelize, User } = require('./config/db');
 
 var indexRouter = require('./routes/index');
